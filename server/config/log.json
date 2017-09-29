@@ -1,0 +1,30 @@
+{
+  "appenders": [{
+    "type": "console"
+  }, {
+    "type": "dateFile",
+    "filename": "logs/debug/",
+    "pattern": "yyyy-MM-dd-debug.log",
+    "alwaysIncludePattern": true,
+    "maxLogSize": 1024,
+    "backups": 4,
+    "category": "logDebug"
+  }, {
+    "type": "dateFile",
+    "filename": "logs/info/",
+    "pattern": "yyyy-MM-dd-info.log",
+    "alwaysIncludePattern": true,
+    "maxLogSize": 1024,
+    "backups": 4,
+    "category": "logInfo"
+  },{
+    "type": "dateFile",
+    "filename": "logs/error/",
+    "pattern": "yyyy-MM-dd-error.log",
+    "alwaysIncludePattern": true,
+    "maxLogSize": 1024,
+    "backups": 4,
+    "category": "logError"
+  }],
+  "replaceConsole": true
+}

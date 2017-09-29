@@ -1,0 +1,9 @@
+[2017-09-29 17:19:09.008] [ERROR] logError - WeatherService.getWeatherByCity ERROR: ReferenceError: code is not defined
+[2017-09-29 17:21:08.903] [ERROR] logError - WeatherService.getWeatherByCity ERROR: ReferenceError: code is not defined
+[2017-09-29 17:25:05.010] [ERROR] logError - WeatherService.getWeatherByCity ERROR: ReferenceError: code is not defined
+[2017-09-29 17:25:06.457] [ERROR] logError - WeatherService.getWeatherByCity ERROR: ReferenceError: code is not defined
+[2017-09-29 17:26:16.326] [ERROR] logError - WeatherService.getWeatherByCity ERROR: ReferenceError: code is not defined
+    at Object.errorMsg (/Users/meizu/my-doc/practice/github/weather-china/server/services/dataFormat.js:19:21)
+    at getWeatherByCity (/Users/meizu/my-doc/practice/github/weather-china/server/services/weather.js:20:27)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
