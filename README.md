@@ -6,7 +6,8 @@ a restful server base on express
 ```
 cd server & npm start
 ```
-then the server listening at port 8888
+then the server listening at port 8888  
+data from `http://www.weather.com.cn`
 
 ## client
 a web client, search weather client base on react
