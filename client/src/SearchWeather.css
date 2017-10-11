@@ -89,14 +89,26 @@ button:hover {
 
 .weather-item {
   display: inline-block;
-  width: 160px;
+  width: 170px;
   height: 300px;
-  margin-right: 10px;
+  margin-right: 6px;
   text-align: center;
   border: 1px solid #ccc;
-  background-color: #9ACCF4;
   color: #fff;
   padding-top: 20px;
+  border-radius: 10px;
+  background: linear-gradient(#9ACCF4, #339ef4);
+  transition: all 1s;
+}
+
+.weather-item:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.15);
+}
+
+.weather-item:last-child {
+  margin-right: 0;
 }
 
 .weather-item .item-weather {
@@ -106,4 +118,50 @@ button:hover {
 .weather-item .item-winDire {
   margin-top: 30px;
   margin-bottom: 10px;
+}
+
+.display-search-wrap .search-nav {
+  margin-left: 54px;
+}
+
+.display-search-wrap .search-nav li {
+  list-style: none;
+  display: inline-block;
+  width: 90px;
+  text-align: center;
+  margin-top: 14px;
+  color: #888;
+  font-size: 12px;
+}
+
+.display-search-wrap .search-nav li:hover {
+  cursor: pointer;
+}
+
+.display-search-wrap .search-nav li.active {
+  color: #339ef4;
+  border-bottom: 2px solid #339ef4;
+}
+
+.around-item {
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  background: linear-gradient(#9ACCF4, #339ef4);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: #fff;
+  box-sizing: border-box;
+  padding-top: 10px;
+  border-radius: 10px;
+  transition: all 1s;
+}
+
+.around-item:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.15);
 }
