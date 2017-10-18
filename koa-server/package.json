@@ -1,0 +1,27 @@
+{
+  "name": "koa-server",
+  "version": "1.0.0",
+  "description": "weather-china server base on koa v2.x",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev-start": "supervisor index.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "server",
+    "koa"
+  ],
+  "author": "JiangBao",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "cheerio": "^1.0.0-rc.2",
+    "koa": "^2.3.0",
+    "koa-cors": "^0.0.16",
+    "koa-router": "^7.2.1"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
