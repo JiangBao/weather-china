@@ -1,6 +1,14 @@
 # weather-china
 report weather restful server &amp; client practice
 
+## result
+<div align=center>
+  <img width=600 height=360 src="public/imgs/search.png"/>
+</div>
+<div align=center>
+    <img width=600 height=300 src="public/imgs/result.png" />
+</div>
+
 ## server
 a restful server base on express
 ```
