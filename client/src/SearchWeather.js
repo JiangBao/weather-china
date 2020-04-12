@@ -62,7 +62,8 @@ class SearchWeather extends Component {
           })
         break;
       case 'all':
-        
+        break;
+      default:
         break;
     }
   }
@@ -98,6 +99,7 @@ class SearchWeather extends Component {
           }
         </div>
         }
+        <div className="footer">©<a href="https://github.com/JiangBao">酱鲍</a> | 数据来自-<a href="http://www.weather.com.cn/">中国天气网</a></div>
       </div>
     );
   }

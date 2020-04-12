@@ -6,10 +6,6 @@ import BMap from 'echarts/extension/bmap/bmap';
 import React, { Component } from 'react';
 
 class AllMap extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount() {
     let option = {
       // 加载 bmap 组件

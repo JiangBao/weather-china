@@ -4,10 +4,6 @@
 import React, { Component } from 'react';
 
 class Seven extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="display-content">

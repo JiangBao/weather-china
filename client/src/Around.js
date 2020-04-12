@@ -4,10 +4,6 @@
 import React, { Component } from 'react';
 
 class Around extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="display-content">
